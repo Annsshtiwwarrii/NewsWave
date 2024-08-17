@@ -1,11 +1,10 @@
 package com.example.newswave.ui.api
 
-import com.example.newswave.ui.NewsResponse
+import com.example.newswave.ui.models.NewsResponse
 import com.example.newswave.ui.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
-import java.util.Locale.IsoCountryCode
 
 interface NewsAPI {
     @GET("v2/top-headlines")

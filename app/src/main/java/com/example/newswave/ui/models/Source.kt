@@ -1,4 +1,4 @@
-package com.example.newswave.ui
+package com.example.newswave.ui.models
 
 data class Source(
     val id: String,

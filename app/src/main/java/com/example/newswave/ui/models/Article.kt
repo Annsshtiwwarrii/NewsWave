@@ -1,4 +1,4 @@
-package com.example.newswave.ui
+package com.example.newswave.ui.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
